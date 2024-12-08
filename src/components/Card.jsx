@@ -24,7 +24,8 @@ const Card = () => {
         <input type="text" name="" id="" value="YOUR RECIPE" />
         <h1 className='text-xl font-bold'>Your recipie</h1>
         <div className="addinput flex justify-between">            
-        <input onChange={handleChange} value={step} type="text" className='w-[90%]'/>
+        <input onChange={handleChange} value={step} type="text" className='w-[90%]'/> 
+        
         <button onClick={handleAdd} className='bg-yellow-400 hov p-2 rounded-xl mx-2'>Add step</button>
         </div>
         </div>
