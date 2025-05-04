@@ -41,3 +41,8 @@ html, body {
     border-bottom: 2px solid #ffcc00; /* Optional: Highlight on focus */
     outline: none; /* Remove focus outline */
   }
+
+  /* .container{
+    background: rgba(255, 255, 255, 0.192);
+    border: 1px solid white;
+  } */
