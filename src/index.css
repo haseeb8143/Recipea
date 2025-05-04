@@ -24,3 +24,20 @@ html, body {
           background-position: 0% 50%;
       }
   }
+
+  .editable-heading {
+    border: 2px solid transparent;
+    background: transparent;
+    font-size: 2rem; /* Adjust size for the heading level */
+    font-weight: bold;
+    width: 100%; /* Optional: Adjust width to fit content */
+    /* text-align: center; Optional: Center align */
+    color: #333; /* Heading text color */
+    outline: none; /* Remove outline on focus */
+    cursor: text; /* Indicate editability */
+  }
+  
+  .editable-heading:focus {
+    border-bottom: 2px solid #ffcc00; /* Optional: Highlight on focus */
+    outline: none; /* Remove focus outline */
+  }
